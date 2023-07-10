@@ -16,7 +16,7 @@ header{
 .header-banner{
     gap: 32px;
     padding-bottom: 150px;
-    padding-top: 200px;
+    padding-top: 150px;
 
 }
 
@@ -35,4 +35,14 @@ header{
     color: #FFFFFF;
     font-size: 20px;
     border: none;
+}
+.h1-text{
+    width: 700px;
+    height: 290px;
+    font-size: 80px;   
+}
+.header-para{
+    width: 634px;
+    height: 90px;
+    font-size: 18px;   
 }
