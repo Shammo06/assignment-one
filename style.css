@@ -5,12 +5,14 @@ header{
     width: 1920px;
     height: 850px;
     flex-shrink: 0;
-
+    
+    
 }
 .header-div{     
     display: flex;
     padding-left: 240px;
     padding-right: 240px;
+    justify-content: space-between;
 }
 
 .header-banner{
@@ -44,5 +46,48 @@ header{
 .header-para{
     width: 634px;
     height: 90px;
-    font-size: 18px;   
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);   
+}
+
+/*main*/
+.about{
+   
+    padding-top: 180px;
+    row-gap: 24px;
+    text-align: center;
+}  
+.about-h3{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.about-text{
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 680px;
+}
+
+.section-tree{
+   
+    display: flex;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.flower-tree{
+    display: block;
+    row-gap: 10px;
+    padding-bottom: 0px;
+    
+}
+.flower{
+    width: 314px;
+    height: 471px;
+    flex-shrink: 0;
 }
